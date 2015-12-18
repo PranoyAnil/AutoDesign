@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>AutoDesign</Name>
+    <ProjectGuid>54ffa5c5-94a3-4ea1-b138-965a2d1141d7</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CarProject</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>CarProject</AssemblyName>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adminPanel.php" />
+    <Compile Include="car_customization\car1.php" />
+    <Compile Include="car_customization\car1color.php" />
+    <Compile Include="car_customization\car1final.php" />
+    <Compile Include="car_customization\car1rim.php" />
+    <Compile Include="car_customization\car2.php" />
+    <Compile Include="car_customization\car2color.php" />
+    <Compile Include="car_customization\car2final.php" />
+    <Compile Include="car_customization\car2rim.php" />
+    <Compile Include="car_customization\car3.php" />
+    <Compile Include="car_customization\car3color.php" />
+    <Compile Include="car_customization\car3final.php" />
+    <Compile Include="car_customization\car3rim.php" />
+    <Compile Include="car_customization\car_index.php" />
+    <Compile Include="car_customization\custom.php" />
+    <Compile Include="car_customization\get.php" />
+    <Compile Include="contact.php" />
+    <Compile Include="details.php" />
+    <Compile Include="index.php" />
+    <Compile Include="login.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="MasterHeader.php" />
+    <Compile Include="MasterFooter.php" />
+    <Compile Include="modifier.php" />
+    <Compile Include="purchase.php" />
+    <Compile Include="Register.php" />
+    <Compile Include="savecar.php" />
+    <Compile Include="webconfig.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="car_customization\" />
+    <Folder Include="car_customization\cars\" />
+    <Folder Include="car_customization\car_images\" />
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="car_customization\cars\1.jpg" />
+    <Content Include="car_customization\cars\audi.jpg" />
+    <Content Include="car_customization\cars\BMW.jpg" />
+    <Content Include="car_customization\car_images\black.png" />
+    <Content Include="car_customization\car_images\blue.png" />
+    <Content Include="car_customization\car_images\civic spoilrs 2.jpg" />
+    <Content Include="car_customization\car_images\civic wid spoilrs.jpg" />
+    <Content Include="car_customization\car_images\green.png" />
+    <Content Include="car_customization\car_images\hatchbk spolr.jpg" />
+    <Content Include="car_customization\car_images\honda civic t1-black-rim1.jpg" />
+    <Content Include="car_customization\car_images\honda civic t1-black.jpg" />
+    <Content Include="car_customization\car_images\honda civic t1-black.psd" />
+    <Content Include="car_customization\car_images\honda civic t1-blue.jpg" />
+    <Content Include="car_customization\car_images\honda civic t1-blue.psd" />
+    <Content Include="car_customization\car_images\honda civic t1.jpg" />
+    <Content Include="car_customization\car_images\honda civic t2.jpg" />
+    <Content Include="car_customization\car_images\honda civic t2yellow.psd" />
+    <Content Include="car_customization\car_images\honda civic t3.jpg" />
+    <Content Include="car_customization\car_images\honda civic t4.psd" />
+    <Content Include="car_customization\car_images\honda civic- red.jpg" />
+    <Content Include="car_customization\car_images\honda civic- yellow.psd" />
+    <Content Include="car_customization\car_images\honda civic-black-rim2.jpg" />
+    <Content Include="car_customization\car_images\honda civic-black-rim2.psd" />
+    <Content Include="car_customization\car_images\honda civic-black.jpg" />
+    <Content Include="car_customization\car_images\honda civic-black.psd" />
+    <Content Include="car_customization\car_images\honda civic-blue-rim1.jpg" />
+    <Content Include="car_customization\car_images\honda civic-blue-rim2.jpg" />
+    <Content Include="car_customization\car_images\honda civic-blue.jpg" />
+    <Content Include="car_customization\car_images\honda civic-blue.psd" />
+    <Content Include="car_customization\car_images\honda civic-red-rim1.jpg" />
+    <Content Include="car_customization\car_images\honda civic-red-rim2.jpg" />
+    <Content Include="car_customization\car_images\honda civic-red.psd" />
+    <Content Include="car_customization\car_images\honda civic-red1.jpg" />
+    <Content Include="car_customization\car_images\honda civic.jpg" />
+    <Content Include="car_customization\car_images\honda-civic-hybrid-2008.jpg" />
+    <Content Include="car_customization\car_images\image1.png" />
+    <Content Include="car_customization\car_images\image1.psd" />
+    <Content Include="car_customization\car_images\image2.png" />
+    <Content Include="car_customization\car_images\image2.psd" />
+    <Content Include="car_customization\car_images\image3.png" />
+    <Content Include="car_customization\car_images\image3.psd" />
+    <Content Include="car_customization\car_images\Lancer-Side-View blue rim1.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View blue rim2.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View blue.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View green rim1.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View green rim2.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View green.jpg" />
+    <Content Include="car_customization\car_images\Lancer-Side-View.jpg" />
+    <Content Include="car_customization\car_images\lancer1.jpg" />
+    <Content Include="car_customization\car_images\logo_bmw.jpg" />
+    <Content Include="car_customization\car_images\maserati-gran-turismo.jpg" />
+    <Content Include="car_customization\car_images\next.png" />
+    <Content Include="car_customization\car_images\ooo.jpg" />
+    <Content Include="car_customization\car_images\orange.png" />
+    <Content Include="car_customization\car_images\proj snapshots.docx" />
+    <Content Include="car_customization\car_images\red.png" />
+    <Content Include="car_customization\car_images\rim1.jpg" />
+    <Content Include="car_customization\car_images\rim1.png" />
+    <Content Include="car_customization\car_images\rim2.jpg" />
+    <Content Include="car_customization\car_images\rim2.png" />
+    <Content Include="car_customization\car_images\rim3.png" />
+    <Content Include="car_customization\car_images\save.png" />
+    <Content Include="car_customization\car_images\skoda.logo.png" />
+    <Content Include="car_customization\car_images\skyblue.png" />
+    <Content Include="car_customization\car_images\SPOILER-SIDE-UNDERBODY_mid.jpg" />
+    <Content Include="car_customization\car_images\swift spoilr.jpg" />
+    <Content Include="car_customization\car_images\Swift-1-rim1.jpg" />
+    <Content Include="car_customization\car_images\Swift-1-rim2.jpg" />
+    <Content Include="car_customization\car_images\Swift-1.jpg" />
+    <Content Include="car_customization\car_images\Swift-2-rim1.jpg" />
+    <Content Include="car_customization\car_images\Swift-2-rim2.jpg" />
+    <Content Include="car_customization\car_images\Swift-2.jpg" />
+    <Content Include="car_customization\car_images\Swift-2.psd" />
+    <Content Include="car_customization\car_images\wheels.jpg" />
+    <Content Include="css\easy-responsive-tabs.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\adlogo.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\Cap.PNG" />
+    <Content Include="images\car_parts1.jpg" />
+    <Content Include="images\car_parts2.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\d_pic1.jpg" />
+    <Content Include="images\d_pic2.jpg" />
+    <Content Include="images\d_pic3.jpg" />
+    <Content Include="images\d_pic4.jpg" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\header_cart.png" />
+    <Content Include="images\hood.png" />
+    <Content Include="images\icon1.png" />
+    <Content Include="images\icon2.png" />
+    <Content Include="images\icon3.png" />
+    <Content Include="images\icon4.png" />
+    <Content Include="images\icon_1.png" />
+    <Content Include="images\icon_2.png" />
+    <Content Include="images\icon_3.png" />
+    <Content Include="images\img.jpg" />
+    <Content Include="images\login.png" />
+    <Content Include="images\login1.png" />
+    <Content Include="images\login123.png" />
+    <Content Include="images\loginbtn.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logout.png" />
+    <Content Include="images\logoutbtn.png" />
+    <Content Include="images\pic1.jpg" />
+    <Content Include="images\pic2.jpg" />
+    <Content Include="images\pic3.jpg" />
+    <Content Include="images\pic4.jpg" />
+    <Content Include="images\pic5.jpg" />
+    <Content Include="images\pic6.jpg" />
+    <Content Include="images\pic7.jpg" />
+    <Content Include="images\pic8.jpg" />
+    <Content Include="images\price-rating.png" />
+    <Content Include="images\productslide-1.jpg" />
+    <Content Include="images\productslide-2.jpg" />
+    <Content Include="images\productslide-3.jpg" />
+    <Content Include="images\productslide-4.jpg" />
+    <Content Include="images\quality-rating.png" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\r_pic1.jpg" />
+    <Content Include="images\r_pic2.jpg" />
+    <Content Include="images\r_pic3.jpg" />
+    <Content Include="images\r_pic4.jpg" />
+    <Content Include="images\r_pic5.jpg" />
+    <Content Include="images\r_pic6.jpg" />
+    <Content Include="images\r_pic7.jpg" />
+    <Content Include="images\r_pic8.jpg" />
+    <Content Include="images\search.png" />
+    <Content Include="images\spoiler2.jpg" />
+    <Content Include="images\twiter.png" />
+    <Content Include="images\value-rating.png" />
+    <Content Include="js\easyResponsiveTabs.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-slider.js" />
+    <Content Include="js\jquery.gallery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\modernizr.custom.53451.js" />
+    <Content Include="js\slides.min.jquery.js" />
+  </ItemGroup>
+</Project>
